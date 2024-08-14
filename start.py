@@ -393,7 +393,7 @@ class App(tk.Tk):
         self.columnconfigure(0, weight=1)
         self.rowconfigure(4, weight=1)
 
-        self.log_view.insert_log('notify', '<Mihan & Kosta parser> запущен.')
+        self.log_view.insert_log('notify', '<tkinter parser> запущен.')
 
     def get_dataset(self):
         """получить данные в виде словарной структуры"""
